@@ -2,59 +2,102 @@
 
 ## Project Overview
 
-This project explores Netflix movies and TV shows using Microsoft Power BI. The dashboard helps analyze content distribution, genres, countries, ratings, and release-year trends.
+This project focuses on analyzing Netflix content using Python, Jupyter Notebook, and Microsoft Power BI. The objective is to explore Netflix movies and TV shows, identify content distribution patterns, analyze release trends, and present meaningful insights through data visualization.
 
-## Objectives
+## Project Objectives
 
-* Compare Movies and TV Shows.
-* Analyze content distribution by release year.
-* Identify top genres and countries.
-* Explore content rating distribution.
-* Present key insights through an interactive dashboard.
+* Analyze the distribution of Movies and TV Shows.
+* Explore Netflix content by country.
+* Examine content release trends over time.
+* Identify the top 10 countries by number of titles.
+* Create interactive visualizations using Power BI.
+* Practice data analysis, data cleaning, and dashboard development.
 
 ## Tools & Technologies
 
-* Microsoft Power BI
-* Power Query
-* DAX
-* Microsoft Excel
-
-## Key Performance Indicators (KPIs)
-
-* Total Titles
-* Total Movies
-* Total TV Shows
-* Total Countries
-* Average Release Year
-
-## Dashboard Preview
-
-![Netflix Dashboard](screenshots/netflix_overview.png)
+* **Microsoft Power BI** – Interactive dashboard and data visualization
+* **Python** – Data analysis
+* **Jupyter Notebook** – Exploratory data analysis
+* **Pandas** – Data manipulation and cleaning
+* **Matplotlib / Seaborn** – Data visualization
+* **Microsoft Excel** – Dataset inspection and preparation
+* **GitHub** – Project documentation and version control
 
 ## Repository Structure
 
 ```text
-Netflix-PowerBI-Dashboard/
+Netflix-Data-Visualization-/
+│
 ├── README.md
-├── data/
-│   └── netflix_titles.csv
-├── Dashboard
-│   └── Netflix_Dashboard.pbix
-└── screenshots 
-    └── netflix_overview.png
-     
+├── Data Visualization.ipynb
+├── Netflix data visualisation Power BI.pbix
+├── netflix_titles.csv.xlsx
+│
+├── netflix dashboard.png
+├── Distribution of release years.png
+├── Movies VS TV Shows.png
+├── Netflix content distribution.png
+├── Netflix content released over time.png
+└── Top 10 countries by number of titles.png
 ```
+## Project Visualizations
 
+### 1. Distribution of Release Years
 
+Analyzes the release-year distribution of Netflix titles to understand content release patterns.
 
-## Data Preparation
+### 2. Movies vs TV Shows
 
-The project may include checking missing values, correcting data types, and formatting dates. Document the data-cleaning steps actually performed in your project.
+Compares the number of Movies and TV Shows available in the dataset.
 
-## Disclaimer
+### 3. Netflix Content Distribution
 
-This is an educational portfolio project and is not affiliated with or endorsed by Netflix. Netflix names and trademarks belong to their respective owners.
+Explores how Netflix titles are distributed across relevant content categories.
+
+### 4. Netflix Content Released Over Time
+
+Visualizes trends in Netflix content releases over the years.
+
+### 5. Top 10 Countries by Number of Titles
+
+Highlights the countries contributing the largest number of titles in the dataset.
+
+## Files Included
+
+| File                                       | Description                    |
+| ------------------------------------------ | ------------------------------ |
+| `Data Visualization.ipynb`                 | Python analysis notebook       |
+| `Netflix data visualisation Power BI.pbix` | Power BI dashboard source file |
+| `netflix_titles.csv.xlsx`                  | Dataset in Excel format        |
+| `netflix dashboard.png`                    | Dashboard preview              |
+| Other PNG files                            | Individual data visualizations |
+
+## Key Learnings
+
+* Data cleaning and preparation
+* Exploratory data analysis (EDA)
+* Working with structured datasets
+* Creating charts and visualizations
+* Building a Power BI dashboard
+* Presenting data-driven insights
+
+## How to Explore This Project
+
+1. Browse the visualization images to see the analysis results.
+2. Open the Jupyter Notebook to review the Python analysis.
+3. Download the `.pbix` file and open it in Microsoft Power BI Desktop to explore the dashboard.
+4. Review the dataset to understand the underlying data.
+
+## Data Source
+
+Netflix titles dataset. Dataset attribution and usage terms should be included where applicable.
 
 ## Author
 
 **Manas Kagdiyal**
+
+GitHub: [manaskagdiyal-beep](https://github.com/manaskagdiyal-beep)
+
+---
+
+If you find this project useful, feel free to explore the repository and share your feedback.
